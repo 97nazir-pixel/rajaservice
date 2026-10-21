@@ -1,9 +1,16 @@
 
+# Java JDK downloaded inside the project
+.vscode/oracleJdk-27/
+
+# Build output and frontend dependencies
 **/target/
 **/node_modules/
 **/dist/
+
+# Compiled Java files
 *.class
-*.log
-**/.env
-**/.env.*
-!**/.env.example
+
+# Secrets
+.env
+.env.*
+!.env.example
