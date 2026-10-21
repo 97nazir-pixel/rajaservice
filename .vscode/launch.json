@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Panservice",
+            "request": "launch",
+            "mainClass": "com.rajaservice.panservice.PanserviceApplication",
+            "projectName": "panservice",
+            "javaExec": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.20.101-hotspot\\bin\\java.exe",
+            "cwd": "${workspaceFolder}\\panservice"
+        }
+    ]
+}
